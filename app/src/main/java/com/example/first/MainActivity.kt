@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         
         setContentView(R.layout.activity_main)
 
+        // Adding Tagging with studio with android
+
         val api= Retrofit.Builder()
             .baseUrl(BASEURL)
             .addConverterFactory(GsonConverterFactory.create())
